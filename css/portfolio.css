@@ -1,0 +1,237 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-title: #2e2f42;
+  --text: #434455;
+  --logotipe-blu: #4d5ae5;
+  --logotipe-blac: #2e2f42;
+  --botton: #4d5ae5;
+  --background-bottom: #f4f4fd;
+  --bottom-hover: #ffffff;
+  --background-bottom-hover: #404bbf;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  color: var(--main-title);
+  font-family: 'Roboto', sans-serif;
+}
+button {
+  color: var(--iris, #4d5ae5);
+  background: var(--background-bottom, #f4f4fd);
+  border-radius: 4px;
+  border: 1px;
+  border: solid #e7e9fc;
+}
+button:hover {
+  color: var(--bottom-hover, #fff);
+  background: var(--background-bottom-hover, #404bbf);
+  border: 1px;
+  border: solid transparent;
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*============ COMPONENTS ============ */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.logotipe {
+  color: var(--logotipe-blu, #4d5ae5);
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+span.ingredient {
+  color: var(--logotipe-blac, #2e2f42);
+}
+
+/*========Header======*/
+.hader-div {
+  display: flex;
+}
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+.logotipe {
+  margin-right: 76px;
+}
+.header-contact {
+  margin-left: auto;
+}
+.menu-link {
+  color: var(--heading-menu, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.contact-link {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  font-style: normal;
+}
+
+.menu {
+  gap: 40px;
+}
+.contact {
+  gap: 40px;
+}
+.logotipe-header {
+  color: var(--logotipe-blu, #4d5ae5);
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+span.ingredient-header {
+  color: var(--navyblue, #2e2f42);
+}
+/*==========Button========*/
+.buttons {
+  background: #fff;
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.button-text {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border: none;
+}
+
+.butoon-bloc {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+/*========Image========*/
+.image-content {
+  display: block;
+}
+.image-div {
+  padding-top: 72px;
+  padding-bottom: 48px;
+}
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.text {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.desc {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.main-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
+}
+/*=========Footer========*/
+
+.footer {
+  background-color: var(--navyblue, #2e2f42);
+}
+
+.footer-text {
+  color: var(--cloud, #f4f4fd);
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  width: 264px;
+}
+.footer-bloc {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-div {
+  margin: auto;
+}
+.logotipe {
+  color: var(--logotipe-blu, #4d5ae5);
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+span.ingredient {
+  color: var(--cloud, #f4f4fd);
+}
+.logotipe {
+  margin-right: 76px;
+}
